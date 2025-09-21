@@ -1,0 +1,29 @@
+{
+  "name": "compatify_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@mdn/browser-compat-data": "^7.1.7",
+    "axios": "^1.12.2",
+    "body-parser": "^2.2.0",
+    "compute-baseline": "^0.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "esprima": "^4.0.1",
+    "express": "^5.1.0",
+    "jsdom": "^27.0.0",
+    "morgan": "^1.10.1",
+    "node-fetch": "^3.3.2",
+    "postcss": "^8.5.6",
+    "web-features": "^3.0.0"
+  }
+}
