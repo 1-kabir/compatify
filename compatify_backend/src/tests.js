@@ -53,7 +53,7 @@ const samples = [
 
   for (const sample of samples) {
     console.log(`\n=== ${sample.desc} ===`);
-    const matches = matchLineToFeatures(sample.code, sample.type, index, { enableMinConfidence: true, minConfidence: 0.85 });
+    const matches = matchLineToFeatures(sample.code, sample.type, index, { enableMinConfidence: true, minConfidence: 0.90 });
     for (const m of matches.slice(0, 5)) { // top 5 matches
       const output = options.fields.map(f => `${f}: ${m[f]}`).join(', ');
       console.log(output);
